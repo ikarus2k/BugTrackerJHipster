@@ -13,7 +13,7 @@ import java.util.Optional;
 /**
  * Spring Data  repository for the Ticket entity.
  */
-@SuppressWarnings("unused")
+// @SuppressWarnings("unused")
 @Repository
 public interface TicketRepository extends JpaRepository<Ticket, Long> {
 
